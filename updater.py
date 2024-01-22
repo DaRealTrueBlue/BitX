@@ -12,5 +12,5 @@ def updater(url):
         print("Error: %s" % e)
 if __name__ == "__main__":
     print("Updating latest version...")
-    website_url = "https://github.com/DaRealTrueBlue/BitX/releases/download/latest/main.py"
+    website_url = "https://raw.githubusercontent.com/DaRealTrueBlue/BitX/master/main.py"
     updater(website_url)
